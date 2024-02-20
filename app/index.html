@@ -5,37 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be Hood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">BeHood</a>
+                <button class="menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
     <section class="study">
         <div class="container">
-            <h1 class="study__title">Stay focused</h1>
+            <div class="study__content">
+                <h1 class="study__title">Stay focused</h1>
 
-            <div class="timer">
-                <div class="timer-clock">
-                    <p class="timer-data minutes">25</p>
-                    <p class="timer-data seconds">00</p>
+                <div class="timer">
+                    <div class="timer-clock">
+                        <p class="timer-data minutes">25</p>
+                        <p class="timer-data seconds">00</p>
+                    </div>
+                    
+    
+                    <button class="timer-btn main-btn">start</button>
+                    
                 </div>
-                
-
-                <button class="timer-btn main-btn">start</button>
-                
+    
+              
             </div>
-
-            <section class="quotes">
-                <div class="quotes__inner">
-                    <div class="quotes__info">
-                        <p class="quotes__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore, rerum unde optio non aut laboriosam exercitationem harum expedita nam in ex placeat neque eveniet eligendi tempora aliquid, ut eos?</p>
-                    </div>
-                    <div class="quotes__media">
-                        <img src="images/quote.png" alt="" class="quotes__media-img">
-                    </div>
-                </div>
-                
-                <button class="quotes__btn main-btn">generate</button>
-            </section>
+            
         </div>
     </section>
 

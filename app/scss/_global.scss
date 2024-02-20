@@ -8,21 +8,20 @@
 }
 
 :root {
-    --main-color: #D8EE77;
-    --dark-color: #3F64B4;
+    --main-color: #E3311D;
+    --dark-color: #485400;
     --text-color: #fff;
     --card-color: #fff;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: var(--main-color);
-    background-image: url('../images/bg.jpg');
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top right;
 }
 
 a{
@@ -41,14 +40,16 @@ button{
 }
 
 .main-btn {
-    padding: 10px 15px;
+    padding: 15px 25px;
     border-radius: 10px;
     border: 2px solid transparent;
     color: #fff;
+    font-size: 20px;
     background-color: var(--dark-color);
     transition: all 0.4s ease-in;
     &:hover {
         border: 2px solid #000;
+        transform: scale(1.1);
     }
 }
 
